@@ -9,7 +9,7 @@ function () {
 // chat connector for communicating with the Bot Framework Service 
 var connector = new builder.ChatConnector({     
     appId: '00a4f3d1-4cc7-4d5d-a528-a16390b5bf42',     
-    appPassword: 'hdpXWB673|]wgytXOQX92~;'
+    appPassword: 'M543+ZAfdPJR6dHO3syDyw==!2lW3Ky9V7C3Bxr1rVwvUJIGgx++C70cf0TP+cMPRUas='
 });
 // Listen for messages from users  
 server.post('/api/messages', connector.listen());  
