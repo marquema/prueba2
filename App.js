@@ -8,8 +8,8 @@ function () {
 });  
 // chat connector for communicating with the Bot Framework Service 
 var connector = new builder.ChatConnector({     
-    appId: '94fdb8a6-3b9b-4cf8-93d8-c36ae77a6d93',     
-    appPassword: 'odYO08$pfjauCKLRJ949!*}'
+    appId: 'f7fff4a6-5daf-4441-b93b-36e9b57dc2c0',     
+    appPassword: 'febqdNYP97)guUNNJ380++#'
 });
 // Listen for messages from users  
 server.post('/api/messages', connector.listen());  
